@@ -104,6 +104,7 @@ switch (strtolower($_SERVER["HTTP_HOST"])) {
      	define("SERVER_SKIN", "01");
      	//GT_DB game data
      	$DBservername[GT_DB]="localhost";
+	$DBserverport[GT_DB]=3306;
      	$DBusername[GT_DB]="gtdbuser";
      	$DBpassword[GT_DB]="test";
      	$DBdatabase[GT_DB]=$server;
