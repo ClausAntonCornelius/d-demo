@@ -103,7 +103,7 @@ switch (strtolower($_SERVER["HTTP_HOST"])) {
      	define("SERVER_LAYOUT", "gt_standard");
      	define("SERVER_SKIN", "01");
      	//GT_DB game data
-     	$DBservername[GT_DB]="127.0.0.1";
+     	$DBservername[GT_DB]="mysql";
 	$DBserverport[GT_DB]=3306;
      	$DBusername[GT_DB]="root";
      	$DBpassword[GT_DB]="test";
