@@ -103,38 +103,26 @@ switch (strtolower($_SERVER["HTTP_HOST"])) {
      	define("SERVER_LAYOUT", "gt_standard");
      	define("SERVER_SKIN", "01");
      	//GT_DB game data
-     	$DBservername[GT_DB]="ts.webtales.4players.de";
+     	$DBservername[GT_DB]="localhost";
      	$DBusername[GT_DB]="gtdbuser";
-     	$DBpassword[GT_DB]="r2d2c3po";
+     	$DBpassword[GT_DB]="test";
      	$DBdatabase[GT_DB]=$server;
 
      	//BOARD_DB board data
-     	$DBservername[BOARD_DB]="ts.webtales.4players.de";
+     	$DBservername[BOARD_DB]="localhost";
      	$DBusername[BOARD_DB]="gtdbuser";
-     	$DBpassword[BOARD_DB]="r2d2c3po";
+     	$DBpassword[BOARD_DB]="test";
      	$DBdatabase[BOARD_DB]=$server;
 
      	//PORTAL_DB portal data
-     	$DBservername[PORTAL_DB]="ts.webtales.4players.de";
+     	$DBservername[PORTAL_DB]="tlocalhost";
      	$DBusername[PORTAL_DB]="gtdbuser";
-     	$DBpassword[PORTAL_DB]="r2d2c3po";
+     	$DBpassword[PORTAL_DB]="test";
      	$DBdatabase[PORTAL_DB]=$server;
-
-     	//MARKETING_DB marketing data
-     	$DBservername[MARKETING_DB]="ts.webtales.4players.de";
-     	$DBusername[MARKETING_DB]="wtmarketing";
-     	$DBpassword[MARKETING_DB]="we#r0ck";
-     	$DBdatabase[MARKETING_DB]="marketing";
-
-     	//PAYMENT_DB payment data
-     	$DBservername[PAYMENT_DB]="brodie.webtales.4players.de";
-     	$DBusername[PAYMENT_DB]="payment";
-     	$DBpassword[PAYMENT_DB]="onanie";
-     	$DBdatabase[PAYMENT_DB]="payment";
 
      	// whether this is test or not
      	define("TESTSYS", true);
-      define("DEVELOPMENT", false);
+	define("DEVELOPMENT", false);
      	// läuft der Server bereits mit der neuen Kartensystematik
      	define("NEWMAP",false);
 
