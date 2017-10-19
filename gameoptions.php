@@ -105,7 +105,7 @@ switch (strtolower($_SERVER["HTTP_HOST"])) {
      	//GT_DB game data
      	$DBservername[GT_DB]="127.0.0.1";
 	$DBserverport[GT_DB]=3306;
-     	$DBusername[GT_DB]="gtdbuser";
+     	$DBusername[GT_DB]="root";
      	$DBpassword[GT_DB]="test";
      	$DBdatabase[GT_DB]=$server;
 
